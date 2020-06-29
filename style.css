@@ -1,0 +1,56 @@
+body {
+  background-color: black !important;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+.row {
+  margin: 10px auto;
+}
+.mynav {
+  background-color: black !important;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar .navbar-brand {
+  color: rgb(255, 38, 219);
+}
+
+.navbar .navbar-toggler {
+  color: white;
+}
+
+.navbar-nav {
+  color: yellow;
+}
+
+.nav {
+  text-decoration: white;
+}
+
+.navbar .navbar-expand-md {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+img {
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
