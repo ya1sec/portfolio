@@ -76,11 +76,7 @@ p.green {
 }
 
 span.navbar-toggler-icon {
-<<<<<<< HEAD
-  background-color: rgb(0, 68, 255);
-=======
   border: none;
->>>>>>> working
 }
 
 /* universal centering tag */
