@@ -1,6 +1,23 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
+  margin: 0 0;
   background-color: black !important;
   color: white;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  padding: 20px;
+  left: 0;
+  bottom: 0 !important;
+  height: 80px;
+  width: 100%;
+  overflow: hidden;
 }
 
 h1 {
@@ -27,6 +44,11 @@ a:hover {
 p.green {
   border: 1px solid rgb(255, 255, 255);
   padding: 10px;
+}
+
+.container {
+  /* margin - bottom = footer height */
+  margin-bottom: 80px;
 }
 .white {
   color: white;
@@ -77,6 +99,15 @@ p.green {
 
 span.navbar-toggler-icon {
   border: none;
+}
+
+.foot {
+  width: 20px;
+  position: sticky;
+}
+.footer {
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  padding: 20px;
 }
 
 /* universal centering tag */
