@@ -80,8 +80,7 @@ p.green {
 }
 
 span.navbar-toggler-icon {
-  color: white;
-  background-color: rgb(0, 68, 255);
+  border: none;
 }
 
 /* universal centering tag */
@@ -89,7 +88,7 @@ span.navbar-toggler-icon {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 60%;
 }
 
 #spinner {
