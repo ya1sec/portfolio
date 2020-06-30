@@ -1,3 +1,4 @@
+/* sets min height to 100% to ensure footer stays at bottom */
 html {
   position: relative;
   min-height: 100%;
@@ -25,20 +26,12 @@ h1 {
   text-align: center;
 }
 
-h1 :hover {
-  color: #fff23c;
-}
-
 h3 {
   color: #ff26db;
 }
 
 label {
   color: white;
-}
-
-a:hover {
-  color: rgb(218, 0, 0);
 }
 
 p.green {
@@ -65,16 +58,17 @@ p.green {
   color: #fff23c;
 }
 
+.navbar .navbar-brand :hover {
+  color: rgb(29, 255, 123);
+}
+
+/* following navbar styles are nulled because of navbar-dark bootstrap class */
 .navbar a.nav-link:hover {
   color: #fff23c;
 }
 
 .navbar .navbar-brand {
   color: #ff26db;
-}
-
-.navbar .navbar-brand :hover {
-  color: rgb(29, 255, 123);
 }
 
 .navbar .navbar-nav .nav-item .nav-link :hover {
@@ -101,13 +95,9 @@ span.navbar-toggler-icon {
   border: none;
 }
 
+/* footer image SVG is resized to 20px width */
 .foot {
   width: 20px;
-  position: sticky;
-}
-.footer {
-  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  padding: 20px;
 }
 
 /* universal centering tag */
@@ -117,6 +107,8 @@ span.navbar-toggler-icon {
   margin-right: auto;
   width: 60%;
 }
+
+/* spinner animation and keyframes taken from codepen.io used for navbar home icon/logo */
 
 #spinner {
   animation-name: spin, depth;
@@ -132,28 +124,5 @@ span.navbar-toggler-icon {
 
   to {
     transform: rotateY(-360deg);
-  }
-}
-
-@keyframes depth {
-  0 {
-    text-shadow: 0 0 black;
-  }
-
-  25% {
-    text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black;
-  }
-
-  50% {
-    text-shadow: 0 0 black;
-  }
-
-  75% {
-    text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black,
-      -5px 0 black;
-  }
-
-  100% {
-    text-shadow: 0 0 black;
   }
 }
