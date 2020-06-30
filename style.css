@@ -8,20 +8,13 @@ h1 {
   text-align: center;
 }
 
+/* doesn't work */
 h1 :hover {
   color: #fff23c;
 }
 
 h3 {
   color: #ff26db;
-}
-
-label {
-  color: white;
-}
-
-a:hover {
-  color: rgb(218, 0, 0);
 }
 
 .pink {
@@ -44,27 +37,11 @@ a:hover {
   color: rgb(29, 255, 123);
 }
 
-.navbar .navbar-nav .nav-item .nav-link :hover {
+.navbar .navbar-expand-sm .navbar-nav .nav-item .nav-link :hover {
   color: #1dff7b;
 }
 
-.navbar .navbar-toggler .navbar-toggler-icon {
-  color: white;
-}
-
-.navbar-nav {
-  color: yellow;
-}
-
-.nav {
-  text-decoration: white;
-}
-
-.navbar .navbar-expand-md {
-  color: white;
-}
-
-.navbar-toggler-icon {
+.mynav .button .navbar-toggler-icon input[type="button"] {
   color: white;
 }
 
