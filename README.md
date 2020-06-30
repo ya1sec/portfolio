@@ -30,7 +30,7 @@ A separate stylesheet called `style.css` was created to style my elements beyond
 
 - Uses semantic html.
 
-- Each page must has valid HTML.
+- Each page has valid HTML.
 
 - Contains my personalized information. (bio, name, images, links to social media, etc.)
 
