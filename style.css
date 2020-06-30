@@ -4,23 +4,40 @@ body {
 }
 
 h1 {
-  color: rgb(255, 255, 255);
+  color: #ff510d;
   text-align: center;
 }
 
-p {
-  color: white;
+h1 :hover {
+  color: #fff23c;
+}
+
+h3 {
+  color: #ff26db;
 }
 
 label {
   color: white;
 }
+
 a:hover {
-  color: #000;
+  color: rgb(218, 0, 0);
+}
+
+.pink {
+  color: #ff26db;
+}
+
+.green {
+  color: #1dff7b;
+}
+
+.yellow {
+  color: #fff23c;
 }
 
 .navbar .navbar-brand {
-  color: rgb(255, 38, 219);
+  color: #ff26db;
 }
 
 .navbar .navbar-brand :hover {
@@ -28,7 +45,7 @@ a:hover {
 }
 
 .navbar .navbar-nav .nav-item .nav-link :hover {
-  color: rgb(29, 255, 123);
+  color: #1dff7b;
 }
 
 .navbar .navbar-toggler .navbar-toggler-icon {
