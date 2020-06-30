@@ -81,7 +81,6 @@ span.navbar-toggler-icon {
 
 /* universal centering tag */
 .center {
-  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
