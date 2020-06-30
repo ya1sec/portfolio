@@ -1,5 +1,6 @@
 body {
   background-color: black !important;
+  color: white;
 }
 
 h1 {
@@ -11,22 +12,26 @@ p {
   color: white;
 }
 
-.row {
-  margin: 10px auto;
+label {
+  color: white;
 }
-.mynav {
-  background-color: black !important;
-}
-
-.navbar {
-  background-color: transparent !important;
+a:hover {
+  color: #000;
 }
 
 .navbar .navbar-brand {
   color: rgb(255, 38, 219);
 }
 
-.navbar .navbar-toggler {
+.navbar .navbar-brand :hover {
+  color: rgb(29, 255, 123);
+}
+
+.navbar .navbar-nav .nav-item .nav-link :hover {
+  color: rgb(29, 255, 123);
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
   color: white;
 }
 
@@ -45,9 +50,8 @@ p {
 .navbar-toggler-icon {
   color: white;
 }
-img {
-}
 
+/* universal centering tag */
 .center {
   display: block;
   margin-left: auto;
