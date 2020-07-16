@@ -38,11 +38,11 @@ window.onload = function () {
     .bind("touchend", function () {});
 };
 
-$("#links").mouseenter(function () {
+$(".dtc").mouseenter(function () {
   $("#cube").addClass("hide");
 });
 
-$("#links").mouseleave(function () {
+$(".dtc").mouseleave(function () {
   $("#cube").removeClass("hide");
 });
 
