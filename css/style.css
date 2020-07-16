@@ -10,6 +10,13 @@ img {
   padding: 10px;
 }
 
+a {
+  font-family: "Inferi";
+  font-size: 1em;
+  color: rgb(0, 17, 255);
+}
+
+
 #content-container {
   display: block;
   position: inherit;
@@ -132,9 +139,6 @@ img {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 3s;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 90px;
-  text-align: center;
 }
 
 @keyframes spin {
