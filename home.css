@@ -4,7 +4,7 @@ body {
   /* max-height: 100vh; */
   /* background-image: url(img/plaid.jpg);
   background-size: 100px auto; */
-  font-family: "Inferi-Light";
+  font-family: "Inferi";
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,18 @@ section {
 a {
   font-family: "Inferi";
   font-size: 1em;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
   color: rgb(0, 17, 255);
+}
+
+p {
+  font-family: "Inferi";
+  font-size: 1em;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 p:hover {
@@ -37,6 +48,11 @@ a:hover {
 
 .info-container {
   max-width: 600px;
+  font-family: "Inferi";
+  font-size: 1em;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 .logo {
@@ -195,7 +211,7 @@ a:hover {
 
 @media only screen and (max-width: 40em) {
   body {
-    max-height: 100vh;
+    height: 80vh;
   }
 
   .info-container {

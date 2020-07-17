@@ -1,6 +1,6 @@
 body {
   background-color: #ffffff;
-  font-family: "Inferi-Light";
+  font-family: "Inferi";
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -17,6 +17,9 @@ img {
 a {
   font-family: "Inferi";
   font-size: 1em;
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
   color: rgb(0, 17, 255);
 }
 
